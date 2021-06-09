@@ -17,7 +17,6 @@ int main( ) {
         solve(); 
         enter code or via function 
     */  
-    int a = 5, b = 3; 
     auto end = chrono::high_resolution_clock::now();
     
     long long int ans = chrono::duration_cast<chrono::microseconds> (end - start).count(); 
